@@ -1,0 +1,114 @@
+2024-07-21 12:40:56 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "country/index". in D:\OSPanel\home\Tasks\vendor\yiisoft\yii2\base\Module.php:561
+Stack trace:
+#0 D:\OSPanel\home\Tasks\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('country/index', Array)
+#1 D:\OSPanel\home\Tasks\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\OSPanel\home\Tasks\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\OSPanel\home\Tasks\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\OSPanel\home\Tasks\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\OSPanel\home\Tasks\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2024-07-21 12:40:56 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'country/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => 'c4c7e759bf9e8fb313ba6144e156fd2d17ef661b1d3f0e8f012ce9c0a258f173a:2:{i:0;s:9:\"_identity\";i:1;s:28:\"[\"100\",\"test100key\",2592000]\";}'
+    'PHPSESSID' => '7ij9864nceermi94t5gdcokuam477d1u'
+    '_csrf' => 'ddd9c057490da06a198303481e9c1b1e7c0facc2b0149c398c025116a784ae1ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"a1R8pVTzC84d_y67wewYDnV43ld9GOC9\";}'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'ZpzXqHlruCIzIJLnmMqYIAAAEjk'
+    'HTTPS' => 'on'
+    'SSL_TLS_SNI' => 'tasks'
+    'HTTP2' => 'on'
+    'H2PUSH' => 'off'
+    'H2_PUSH' => 'off'
+    'H2_PUSHED' => ''
+    'H2_PUSHED_ON' => ''
+    'H2_STREAM_ID' => '1'
+    'H2_STREAM_TAG' => '4612-9-1'
+    'SSL_SERVER_S_DN_CN' => 'tasks'
+    'SSL_SERVER_I_DN_Email' => 'root@ospanel.local'
+    'SSL_SERVER_I_DN_C' => 'EU'
+    'SSL_SERVER_I_DN_ST' => 'Local Network'
+    'SSL_SERVER_I_DN_O' => 'Open Server Panel'
+    'SSL_SERVER_I_DN_CN' => 'Open Server Panel'
+    'SSL_SERVER_SAN_DNS_0' => 'tasks'
+    'SSL_SERVER_SAN_DNS_1' => 'www.tasks'
+    'SSL_VERSION_INTERFACE' => 'mod_ssl/2.4.59'
+    'SSL_VERSION_LIBRARY' => 'OpenSSL/3.1.5'
+    'SSL_PROTOCOL' => 'TLSv1.3'
+    'SSL_SECURE_RENEG' => 'false'
+    'SSL_COMPRESS_METHOD' => 'NULL'
+    'SSL_CIPHER' => 'TLS_AES_128_GCM_SHA256'
+    'SSL_CIPHER_EXPORT' => 'false'
+    'SSL_CIPHER_USEKEYSIZE' => '128'
+    'SSL_CIPHER_ALGKEYSIZE' => '128'
+    'SSL_CLIENT_VERIFY' => 'NONE'
+    'SSL_SERVER_M_VERSION' => '3'
+    'SSL_SERVER_M_SERIAL' => '4550D1A5AD9AAC64EBD83D36A4D16A410C1A5D51'
+    'SSL_SERVER_V_START' => 'Jun 20 14:56:16 2024 GMT'
+    'SSL_SERVER_V_END' => 'Jun 18 14:56:16 2034 GMT'
+    'SSL_SERVER_S_DN' => 'CN=tasks'
+    'SSL_SERVER_I_DN' => 'CN=Open Server Panel,O=Open Server Panel,ST=Local Network,C=EU,emailAddress=root@ospanel.local'
+    'SSL_SERVER_A_KEY' => 'id-ecPublicKey'
+    'SSL_SERVER_A_SIG' => 'ecdsa-with-SHA256'
+    'SSL_SESSION_ID' => 'd2314d725bc643981cfdac4f0ab1d18ee9262c2cf4e2a5a86faf4075e5f0cefb'
+    'SSL_SESSION_RESUMED' => 'Resumed'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"126\", \"Google Chrome\";v=\"126\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => '_identity=c4c7e759bf9e8fb313ba6144e156fd2d17ef661b1d3f0e8f012ce9c0a258f173a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A28%3A%22%5B%22100%22%2C%22test100key%22%2C2592000%5D%22%3B%7D; PHPSESSID=7ij9864nceermi94t5gdcokuam477d1u; _csrf=ddd9c057490da06a198303481e9c1b1e7c0facc2b0149c398c025116a784ae1ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22a1R8pVTzC84d_y67wewYDnV43ld9GOC9%22%3B%7D'
+    'HTTP_X_SSR_LANG' => 'ru'
+    'HTTP_PRIORITY' => 'u=0, i'
+    'HTTP_HOST' => 'tasks'
+    'PATH' => 'D:\\OSPanel\\bin;D:\\OSPanel\\modules\\PHP-8.1\\Apache\\bin;D:\\OSPanel\\modules\\PHP-8.1\\PHP;D:\\OSPanel\\data\\PHP-8.1\\default\\composer\\vendor\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'tasks'
+    'SERVER_ADDR' => '127.127.126.32'
+    'SERVER_PORT' => '443'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OSPanel/home/Tasks/web'
+    'REQUEST_SCHEME' => 'https'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OSPanel/home/Tasks/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OSPanel/home/Tasks/web/index.php'
+    'REMOTE_PORT' => '50907'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/2.0'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=country/index'
+    'REQUEST_URI' => '/?r=country/index'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1721554856.724
+    'REQUEST_TIME' => 1721554856
+    'argv' => [
+        0 => 'r=country/index'
+    ]
+    'argc' => 1
+]
